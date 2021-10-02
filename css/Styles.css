@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  height: 937px;
+
+}
+
+.middle-container{
+  background-color: #CDF0EA;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  height: 150px;
+  padding-top: 50px;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #CDF0EA;
+  text-decoration: none;
+}
+a:hover{
+  color: purple;
+}
+.contact-me{
+  position: relative;
+  bottom: 20px;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  padding: 80px;
+}
+
+.copy{
+  margin-bottom: 0;
+  position: relative;
+  top: 50px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.footer-link{
+
+  position: relative;
+  top: 30px;
+  margin: 0 20px 0 20px;
+  font-size: 1.5rem;
+}
+
+h1{
+  margin-top: 0;
+  position: relative;
+  top: 300px;
+  font-family: 'Ephesis', cursive;
+  font-size: 5.625rem;  /* 16px = 100% = 1rem or em */
+  margin-bottom: 5px;
+  color: #66BFBF;
+}
+
+.program{
+  position: relative;
+  margin-top: 5px;
+  top: 300px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mountain{
+  position: relative;
+  top: 375px;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 365px;
+  left: 500px
+}
+.top-cloud{
+  position: absolute;
+  right: 550px;
+  top: 150px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+}
+.c{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/*
+  ضد ال float
+.c-disc{
+  clear: left;
+}
+*/
+.computer{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/*
+  ضد ال float
+.computer-disc{
+  clear: right;
+}
+*/
+
+hr{
+  border-style: dotted none none none;
+  margin: 50px auto 50px auto;
+  border-color: #66BFBF;
+  width: 70px;
+  border-width: 8px;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #33909e;
+	background:linear-gradient(to bottom, #5cd4ff 5%, #53c9db 100%);
+	background-color:#5cd4ff;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#f069f0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #498fa6;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #53c9db 5%, #5cd4ff 100%);
+	background-color:#53c9db;
+  text-decoration: none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
